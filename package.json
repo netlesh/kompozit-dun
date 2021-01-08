@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "dev": "browser-sync start --server -w"
+  },
   "dependencies": {
     "browser-sync": "^2.26.13"
   }

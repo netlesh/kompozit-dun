@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^m\.kompozitdunyasi\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.m\.kompozitdunyasi\.com$
+RewriteRule ^/?$ "http\:\/\/m\.kompozitdunyasi\.com\/m\.htm" [R=301,L]

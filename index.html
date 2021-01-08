@@ -1,0 +1,1195 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="tr" itemscope="" itemtype="http://schema.org/Product">
+<!--<![endif]-->
+
+<head>
+	<script src="./js/detectmobile.min.js"></script>
+	<script>
+
+		detectmobile.defaultMobileURL = "http://kompozitdunyasi.com/m.htm";
+		detectmobile.process();
+
+	</script>
+	<meta charset="utf-8">
+	<meta name="wot-verification" content="acd0370de527d0805516" />
+	<!-- Use the .htaccess and remove these lines to avoid edge case issues.
+			 More info: h5bp.com/b/378 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>Kompozit Dünyası Dergisi</title>
+	<meta name="description"
+		content="Boytek Reçine Boya ve Kimya San. Tic. A.Ş. tarafından üç ayda bir çıkartılan ücretsiz bültendir.">
+	<meta name="keywords"
+		content="Kompozit,Kompozit Dünyası,Kompozit Dergisi,Boytek,Polyester Reçinesi,Vinilester,Jelkot,Pigment Pasta,Elyaf">
+	<meta name="author" content="humans.txt">
+	<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<!-- Facebook Metadata /-->
+
+	<meta property="article:author" content="http://www.netlesh.net" />
+	<meta property="og:image" content="./img/site.jpg">
+	<meta property="og:description"
+		content="Boytek Reçine Boya ve Kimya San. Tic. A.Ş. tarafından üç ayda bir çıkartılan ücretsiz bültendir.">
+	<meta property="og:title" content="Kompozit Dünyası Dergisi">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+	<link rel="stylesheet" href="./css/gumby.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/skin_modern_warm.css" />
+	<link rel="stylesheet" type="text/css" href="./css/html_content.css" />
+	<script type="text/javascript" src="./js/FWDRoyalDockMenu.js"></script>
+	<script type="text/javascript">
+		FWDUtils.onReady(function () {
+			var dockmenu = new FWDRoyalDockMenu({
+				//required settings
+				dockMenuHolderDivId: "coverFlow",
+				dockMenuDataListDivId: "dockMenuData",
+				displayType: "fluidwidth",
+				autoScale: "yes",
+				dockMenuWidth: 1200,
+				dockMenuHeight: 500,
+				dockMenuHeight: 500,
+				skinPath: "./css/skin_modern_warm",
+
+				//main settings
+				backgroundColor: "#f1f1f1",
+				backgroundImagePath: "./css/skin_modern_warm/background_03.jpg",
+				backgroundRepeat: "repeat-x",
+				menuStyle: "yes",
+				autoplay: "yes",
+				autoplaySpeed: 20,
+				showContextMenu: "yes",
+
+				//thumbnail settings
+				thumbnailWidth: 228,
+				thumbnailHeight: 319,
+				thumbnailsMinimumScale: .6,
+				thumbnailsSpace: 10,
+				thumbnailsSideSpace: 10,
+				thumbnailsInfluenceDistance: 300,
+				thumbnailsAlignment: "top",
+				thumbnailBorderSize: 8,
+				thumbnailBackgroundColor: "#666666",
+				thumbnailBorderColor1: "#efbe48",
+				thumbnailBorderColor2: "#250906",
+				transparentImages: "no",
+				maxNumberOfThumbnailsOnMobile: 13,
+				showThumbnailsHtmlContent: "no",
+				enableHtmlContent: "no",
+				showThumbnailBoxShadow: "yes",
+				thumbnailBoxShadowCss: "0px 2px 2px #555555",
+				showTooltip: "yes",
+				dynamicTooltip: "yes",
+				showReflection: "yes",
+				reflectionHeight: 90,
+				reflectionDistance: 2,
+				reflectionOpacity: .5,
+
+				//combobox settings
+				DockMenuYoffset: "100",
+				showComboBox: "yes",
+				startAtCategory: 1,
+				selectLabel: "Yıl seçiniz",
+				allCategoriesLabel: "Tüm yıllar",
+				showAllCategories: "no",
+				comboBoxPosition: "topleft",
+				selectorBackgroundNormalColor1: "#EFBE48",
+				selectorBackgroundNormalColor2: "#EFBE48",
+				selectorBackgroundSelectedColor1: "#A61C24",
+				selectorBackgroundSelectedColor2: "#8e8e8e",
+				selectorTextNormalColor: "#fff",
+				selectorTextSelectedColor: "#fff",
+				buttonBackgroundNormalColor1: "#A61C24",
+				buttonBackgroundNormalColor2: "#e7e7e7",
+				buttonBackgroundSelectedColor1: "#EFBE48",
+				buttonBackgroundSelectedColor2: "#EFBE48",
+				buttonTextNormalColor: "#fff",
+				buttonTextSelectedColor: "#fff",
+				comboBoxShadowColor: "#250906",
+				comboBoxHorizontalMargins: 12,
+				comboBoxVerticalMargins: -6,
+				comboBoxCornerRadius: 10,
+
+				//lightbox settings
+				addLightBoxKeyboardSupport: "yes",
+				showLightBoxNextAndPrevButtons: "yes",
+				showLightBoxZoomButton: "yes",
+				showLightBoxInfoButton: "yes",
+				showLighBoxSlideShowButton: "yes",
+				showLightBoxInfoWindowByDefault: "no",
+				slideShowAutoPlay: "no",
+				lightBoxVideoAutoPlay: "no",
+				lightBoxBackgroundColor: "#000000",
+				lightBoxInfoWindowBackgroundColor: "#250906",
+				lightBoxItemBorderColor1: "#fcfdfd",
+				lightBoxItemBorderColor2: "#e4FFe4",
+				lightBoxItemBackgroundColor: "#333333",
+				lightBoxMainBackgroundOpacity: .8,
+				lightBoxInfoWindowBackgroundOpacity: .9,
+				lightBoxBorderSize: 5,
+				lightBoxBorderRadius: 0,
+				lightBoxSlideShowDelay: 4
+			});
+		})
+	</script>
+	<script src="//cdn.jsdelivr.net/modernizr/2.6.2/modernizr.min.js"></script>
+	<link rel="next" href="./sayi/32/index.html">
+</head>
+
+<body>
+	<!--logo-->
+	<div id="logoAlani" class="row">
+		<div class="centered six columns">
+			<p><img id="logo" src="img/komp-logo.png" alt="kompozit dünyası"></p>
+		</div>
+	</div>
+	<!--karusel-->
+	<div id="karusel" class="navbar">
+		<!-- div used as a holder for the coverflow -->
+		<div id="coverFlow"></div>
+
+		<!-- coverflow data -->
+		<div id="dockMenuData" style="display: none;">
+			<!-- category  -->
+			<ul data-cat="2019-2021">
+
+				<ul>
+					<li data-type="link" data-url="./sayi/51/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./sayi/51/th/image01.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 51</p>
+						<p class="smallLabel">
+						<h5>Depreme Karşı Yapıların Güçlendirilmesinde Kompozit Uygulamalar</h5>
+						<i class="icon-feather"></i>JEC World 2019 Fuar Günlüğü<br>
+						<i class="icon-feather"></i>Türkiye'de Kadın İstihdamı</p>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/52/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./sayi/52/th/image01.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 52</p>
+						<p class="smallLabel">
+						<h5>Kompozit Bahçe Mobilyaları</h5>
+						<i class="icon-feather"></i>MARBLE İzmir<br>
+						<i class="icon-feather"></i>Boytek'ten Çevreye Duyarlı Yenilikler</p>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/53/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./sayi/53/th/image01.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 53</p>
+						<p class="smallLabel">
+						<h5>Sanat ve Kompozit Teknolojisi</h5>
+						<i class="icon-feather"></i>Yapı Fuarı 2019<br>
+						<i class="icon-feather"></i>Kuka Collection</p>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/54/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./sayi/54/th/image01.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 54</p>
+						<p class="smallLabel">
+						<h5>Köprü-Yol İnşası ve Onarımında Kompozit Kullanımı</h5>
+						<i class="icon-feather"></i>Turk Kompozit 2019<br>
+						<i class="icon-feather"></i>TÜREK 2019</p>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/55-56/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./sayi/55-56/th/image01.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 55-56</p>
+						<p class="smallLabel">
+						<h5>COVID-19 Salgınında Kompozit Sektörü</h5>
+						<i class="icon-feather"></i>CNR Avrasya Boat Show<br>
+						<i class="icon-feather"></i>Futura Form</p>
+					</li>
+
+				</ul>
+
+
+			</ul>
+
+			<ul data-cat="2016-2018">
+
+				<ul>
+					<li data-type="link" data-url="./sayi/39/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./sayi/39/th/page-01.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 39</p>
+						<p class="smallLabel">
+						<h5>Boytek 2. Sektörel ve Ekonomik Değerlendirme Toplantısı</h5>
+						<i class="icon-feather"></i>Kompozit Sektörü İşletmelerinde Verimlilik ve Eğitim<br>
+						<i class="icon-feather"></i>JEC World 2016 Fuar Günlüğü</p>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/40/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./sayi/40/th/image-01.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 40</p>
+						<p class="smallLabel">
+						<h5>Kompozit Dünyası ile 10 Yıl</h5>
+						<i class="icon-feather"></i>Kompozit Dünyası 10. Yıl Kokteyli<br>
+						<i class="icon-feather"></i>Geçmişten Bugüne Kompozit Dünyası Çevre Konuları</p>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/41/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./sayi/41/th/image-01.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 41</p>
+						<p class="smallLabel">
+						<h5>Üç Boyutlu Baskı Teknolojisi</h5>
+						<i class="icon-feather"></i>Tübitak Alternatif Enerjili Araç Yarışları 2016</p>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/42/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./sayi/42/th/image-01.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 42</p>
+						<p class="smallLabel">
+						<h5>Rüzgâr Santralleri ve Türbinleri</h5>
+						<i class="icon-feather"></i>Kompozit Sanayicileri Derneği Üye Toplantısı</p>
+						<i class="icon-feather"></i>Ankara Kalaba Lisesi H2-C Jr Takımı</p>
+					</li>
+
+				</ul>
+
+				<ul>
+					<li data-type="link" data-url="./sayi/43/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./sayi/43/th/IMG_9197.JPG"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 43</p>
+						<p class="smallLabel">
+						<h5>Boytek 3. Ekonomik ve Sektörel Değerlendirme Toplantısı</h5>
+						<i class="icon-feather"></i>JEC World 2017 Fuar Günlüğü</p>
+						<i class="icon-feather"></i>Kompozit Malzemenin Uygulama Alanları: Vitrin Mankeni</p>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/44/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./sayi/44/th/44sf01.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 44</p>
+						<p class="smallLabel">
+						<h5>Kompozit Ürün Uygulamaları: Kuvars Kompoze Levhalar</h5>
+						<i class="icon-feather"></i>Trabzon Otomotiv Zirvesi</p>
+						<i class="icon-feather"></i>Modern Tezgâhlar için BRE 372</p>
+					</li>
+
+				</ul>
+
+				<ul>
+					<li data-type="link" data-url="./sayi/45/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./sayi/45/th/image-01.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 45</p>
+						<p class="smallLabel">
+						<h5>Otomotiv Endüstrisinde Reçine Transfer Kalıplama </h5>
+						<i class="icon-feather"></i>Karadeniz Teknik Üniversitesi</p>
+						<i class="icon-feather"></i>UMAKİT</p>
+					</li>
+				</ul>
+
+				<ul>
+					<li data-type="link" data-url="./sayi/46/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./sayi/46/th/image-Page-01.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 46</p>
+						<p class="smallLabel">
+						<h5>Mobilya Üretiminde Kompozit Malzeme Kullanımı</h5>
+						<i class="icon-feather"></i>Maskim Ailesi’nin 40 Yıllık Kompozit Yolculuğu</p>
+						<i class="icon-feather"></i>TBP İSGİP Plaketi</p>
+					</li>
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/47/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./sayi/47/th/image-01.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 47</p>
+						<p class="smallLabel">
+						<h5>Havacılık ve Savunma Sanayinde Kompozit Malzeme Kullanımı</h5>
+						<i class="icon-feather"></i>Doğukan Boya Müşteri Buluşması</p>
+						<i class="icon-feather"></i>JEC World 2018 Fuar Günlüğü</p>
+						<i class="icon-feather"></i>W Wax</p>
+					</li>
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/48/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./sayi/48/th/image-01.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 48</p>
+						<p class="smallLabel">
+						<h5>Kompozit Sektörü İşletmelerinde Kriz Yönetimi</h5>
+						<i class="icon-feather"></i>Boytek Geleneksel İftar Yemeği</p>
+						<i class="icon-feather"></i>Yenilenen ISO Sertifikaları</p>
+					</li>
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/49/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./sayi/49/th/image-01.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 49</p>
+						<p class="smallLabel">
+						<h5>Krizden Kurtuluş: İhracat-İhracat-İhracat!</h5>
+						<i class="icon-feather"></i>Otomotiv Sektörüne Genel Bakış</p>
+						<i class="icon-feather"></i>KTÜ Enerji Teknolojileri Topluluğu</p>
+					</li>
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/50/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./sayi/50/th/image01.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 50</p>
+						<p class="smallLabel">
+						<h5>TBP’den Çevreci Güneş Enerjisi Yatırımı!</h5>
+						<i class="icon-feather"></i>Güneş Enerjisinden Elektrik Üretimi</p>
+						<i class="icon-feather"></i>Kompozit Sanayicileri Derneği Üye Toplantısı</p>
+					</li>
+				</ul>
+
+			</ul>
+			<!-- category  -->
+			<ul data-cat="2014-2016">
+				<ul>
+					<li data-type="link" data-url="./sayi/31/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/12-14/31.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 31</p>
+						<p class="smallLabel">
+						<h5>JECeurope: Fuardaki 15. Yılımız</h5>
+						<i class="icon-feather"></i>Sürdürülebilirlik<br>
+						<i class="icon-feather"></i>MEKP Depolanması <br>
+						<i class="icon-feather"></i>Dolgulu Döküm Uygulamaları</p>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/32/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/12-14/32.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 32</p>
+						<p class="smallLabel">
+						<h5>Yüksek Performanslı Macun Reçineleri</h5>
+						<i class="icon-feather"></i>Hilmi Darcan Özgeçmişi<br>
+						<i class="icon-feather"></i>5 Haziran Dünya Çevre Günü <br>
+						<i class="icon-feather"></i>Kimyasallarla Çalışmalarda İş Sağlığı ve Güvenliği</p>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/33/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/12-14/33.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 33</p>
+						<p class="smallLabel">
+						<h5>Tarım Sektörü-1: Seracılıkta Kompozit Kullanımı</h5>
+						<i class="icon-feather"></i>REW İstanbul<br>
+						<i class="icon-feather"></i>Tekirdağ Yelken İhtisas Kulübü<br>
+						<i class="icon-feather"></i>Boytek A.Ş. Üretim Müdürü Tülay Yelmen</p>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/34/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/12-14/34.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 34</p>
+						<p class="smallLabel">
+						<h5>Tarım Sektörü-2: Tarımsal Sulamada Kompozit Kullanımı</h5>
+						<i class="icon-feather"></i>İTÜ TEMAG/Boytek İşbirliği<br>
+						<i class="icon-feather"></i>Boytek TÜKҪEV üyesi<br>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/35/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/12-14/35.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 35</p>
+						<p class="smallLabel">
+						<h5>Boytek Sektörel ve Ekonomik Değerlendirme Toplantısı</h5>
+						<i class="icon-feather"></i>JEC COMPOSITES 2015 Günlüğü<br>
+						<i class="icon-feather"></i>Pultrüzyon Prosesi<br>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/36/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/14-16/36.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 36</p>
+						<p class="smallLabel">
+						<h5>Akrilik Takviye Polyesterleri</h5>
+						<i class="icon-feather"></i>4. Polimerik Kompozitler Sempozyumu Sergisi ve Proje Pazarı<br>
+						<i class="icon-feather"></i>Yeni CLP Tüzüğü<br>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/37/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/14-16/37.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 37</p>
+						<p class="smallLabel">
+						<h5>Verimlilik Kayıplarının Önlenmesi</h5>
+						<i class="icon-feather"></i>Kompozit Üretiminde Hammadde Firesini Azaltmanın Yolları <br>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/38/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/14-16/38.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 38</p>
+						<p class="smallLabel">
+						<h5>Kompozit Sektörü İşletmelerinde Teknoloji Kullanımı ve Verimlilik
+						</h5>
+						<i class="icon-feather"></i>Turk Kompozit 2015<br>
+						<i class="icon-feather"></i>Eurasian Composites 2015<br>
+					</li>
+
+				</ul>
+			</ul>
+			<ul data-cat="2012-2014">
+				<ul>
+					<li data-type="link" data-url="./sayi/23/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/10-12/23.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 23</p>
+						<p class="smallLabel">
+						<h5>Vakum İnfüzyon Yöntemi</h5>
+						<i class="icon-feather"></i>Forum: Kompozit Sektörü İşletmelerine Birkaç Öneri<br>
+						<i class="icon-feather"></i>Sektörümüzden: Fibrosan</p>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/24/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/12-14/24.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 24</p>
+						<p class="smallLabel">
+						<h5>Hijyenik Kompozit Levhalar</h5>
+						<i class="icon-feather"></i>Sektörümüzden: Kurtalan Ambulans & Erduman Otomotiv <br>
+						<i class="icon-feather"></i>Fuarların Ardından</p>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/25/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/12-14/25.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 25</p>
+						<p class="smallLabel">
+						<h5>Toplu Ulaşım Sektöründe Kompozit Kullanımı</h5>
+						<i class="icon-feather"></i>Sektörümüzden: Boytek Ailesi Genişliyor<br>
+						<i class="icon-feather"></i>Yanıcı ve Parlayıcı Maddelerin Depolanması<br>
+						<i class="icon-feather"></i>Yeni Çevre Mevzuatının Kompozit Sektörüne Etkileri </p>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/26/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/12-14/26.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 26</p>
+						<p class="smallLabel">
+						<h5>Savunma Sanayiinde Kompozit Kullanımı</h5>
+						<i class="icon-feather"></i>Sektörümüzden: AYEM Güvenlik Gereçleri<br>
+						<i class="icon-feather"></i>Polymeric Composites 2012 Sonuç Bildirgesi<br>
+						<i class="icon-feather"></i>Araştırma, Teknoloji Geliştirme ve İnovasyon için Öneriler</p>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/27/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/12-14/27.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 27</p>
+						<p class="smallLabel">
+						<h5>Kompozit Malzemenin Kültür ve Sanata Etkileri ve Kullanımı</h5>
+						<i class="icon-feather"></i>Sektörümüzden: ZENGER: Tasarımların Sanata Dönüştüğü Kullanım
+						Objeleri<br>
+						<i class="icon-feather"></i>Kompozit Sektörünün Dünya Devleri: OCV Reinforcements</p>
+					</li>
+					<!--				kaan-->
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/28/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/12-14/28.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 28</p>
+						<p class="smallLabel">
+						<h5>Kent Mobilyalarında Kompozit Kullanımı</h5>
+						<i class="icon-feather"></i>2013 Bayiler Toplantımızı yaptık<br>
+						<i class="icon-feather"></i>Boytek-Samsung Staron İş Ortaklığı</p>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/29/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/12-14/29.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 29</p>
+						<p class="smallLabel">
+						<h5>SMC Yönteminde Yeni Ufuklar</h5>
+						<i class="icon-feather"></i>Çevre ve İş Güvenliğinde ABD-Türkiye Farkı<br>
+						<i class="icon-feather"></i>Türkiye’de İş Sağlığı ve Güvenliği <br>
+						<i class="icon-feather"></i>Ürün Tanıtımı: BRE AS33 </p>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/30/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/12-14/30.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 30</p>
+						<p class="smallLabel">
+						<h5>Enerji Üretimi ve Dağıtımında Kompozit Kullanımı</h5>
+						<i class="icon-feather"></i>Yeşil Altyapı Sistemleri<br>
+						<i class="icon-feather"></i>Kompozit Sektöründe Kriz Yönetimi-2</p>
+					</li>
+
+				</ul>
+
+
+			</ul>
+			<!-- end  -->
+			<!-- category  -->
+			<ul data-cat="2010-2012">
+				<ul>
+					<li data-type="link" data-url="./sayi/16/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/10-12/16.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 16</p>
+						<p class="smallLabel">
+						<h5>Elektrik Enerjisi Üretiminde Kompozit Malzeme Kullanımı: Rüzgar Türbinleri</h5>
+						<i class="icon-feather"></i>Anti-Damping Soruşturması <br>
+						<i class="icon-feather"></i>Otoklav Üretim Yöntemi<br>
+						<i class="icon-feather"></i> Hydratek EZ</p>
+					</li>
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/17/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/10-12/17.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 17</p>
+						<p class="smallLabel">
+						<h5>Vitrifiye Sektöründe Kompozit Malzeme Kullanımı: Banyo & Mutfak</h5>
+						<i class="icon-feather"></i>Ashland/Boytek İşbirliği<br>
+						<i class="icon-feather"></i>Boytek müşterileriyle buluşuyor<br>
+						<i class="icon-feather"></i>JEC’10’un Ardından <br>
+						<i class="icon-feather"></i>Kompoist’10’a Merhaba</p>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/18/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/10-12/18.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 18</p>
+						<p class="smallLabel">
+						<h5>Kompozit Levha Üretimi</h5>
+						<i class="icon-feather"></i>Kompozit Cami Kubbeleri ve Minareler<br>
+						<i class="icon-feather"></i>Kompoist’10’un Ardından</p>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/19/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/10-12/19.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 19</p>
+						<p class="smallLabel">
+						<h5>Enerji Tasarrufu için Kompozit Malzeme Kullanımı</h5>
+						<br><i class="icon-feather"></i>Sektörümüzden: Yarış Kabin<br>
+						<i class="icon-feather"></i>İş Sağlığı ve Güvenliğinde Yeni Roller<br>
+						<i class="icon-feather"></i>El Yatırması Yönteminde Elyaf-Reçine Oranının Hesaplanması</p>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/20/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/10-12/20.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 20</p>
+						<p class="smallLabel">
+						<h5>Kompozit Malzeme Üretim Yöntemleri: SMC-BMC Kalıplama</h5>
+						<i class="icon-feather"></i>Otomotiv Endüstrisi ve AR-GE <br>
+						<i class="icon-feather"></i>Sektörümüzden: CAMBRO-ÖZAY</p>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/21/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/10-12/21.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 21</p>
+						<p class="smallLabel">
+						<h5>Kompozit Kaplama ve İzolasyon Uygulamaları</h5>
+						<i class="icon-feather"></i>Kompozit Sektöründe Kriz Yönetimi-1 <br>
+						<i class="icon-feather"></i>Ürün Tanıtımı: BRE 311&BVE 780</p>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/22/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/10-12/22.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 22</p>
+						<p class="smallLabel">
+						<h5>Kompozit Acil Barınma Üniteleri</h5>
+						<i class="icon-feather"></i>Boytek’ten Çevre Dostu Kürleşme <br>
+						<i class="icon-feather"></i>Kompozit Sektörü-Üniversite İşbirliği <br>
+						<i class="icon-feather"></i>Ürün Tanıtımı: BRE 302</p>
+					</li>
+
+				</ul>
+
+
+			</ul>
+			<!-- category  -->
+			<ul data-cat="2008-2010">
+				<ul>
+					<li data-type="link" data-url="./sayi/08/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/06-08/08.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 8</p>
+						<p class="smallLabel">
+						<h5>Filament Sarma Yöntemi</h5>
+						<i class="icon-feather"></i>SUBOR: Kompozit Boru Üretiminde Ülkemizin Yüzakı<br>
+						<i class="icon-feather"></i>REACH Düzenlemesi</p>
+					</li>
+
+				</ul>
+
+				<ul>
+					<li data-type="link" data-url="./sayi/09/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/08-10/09.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 9</p>
+						<p class="smallLabel">
+						<h5>Otomotiv Sanayiinde Kompozit Malzeme Kullanımı</h5> <i class="icon-feather"></i> Jec
+						Composites 2008 <br><i class="icon-feather"></i> Bayilerimiz <br><i class="icon-feather"></i>
+						Ürün Tanıtımı</p>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/10/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/08-10/10.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 10</p>
+						<p class="smallLabel">
+						<h5>30 ALTIN YIL</h5><i class="icon-feather"></i> Boytek'in 30. Kuruluş Yılını Kutlarken <br><i
+							class="icon-feather"></i> Boytek'in Kronolojik Tarihi <br><i class="icon-feather"></i>
+						Boytek için ne söylediler</p>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/11/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/08-10/11.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 11</p>
+						<p class="smallLabel">
+						<h5>Deniz Araçları Sanayiinde Kompozit Malzeme Kullanımı</h5>
+						<i class="icon-feather"></i>Jec Composites 2008 <br>
+						<i class="icon-feather"></i>Polymeric Composites 2008 <br>
+						<i class="icon-feather"></i>Ürün Tanıtımı: BRE 3021</p>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/12/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/08-10/12.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 12</p>
+						<p class="smallLabel">
+						<h5>İnşaat Sektöründe Kompozit Malzeme Kullanımı-1</h5>
+						<i class="icon-feather"></i> 2009’a İlişkin Öngörü ve Beklentilerimiz<br>
+						<i class="icon-feather"></i>Polymeric Composites 2008 Sonuç Bildirgesi<br>
+						<i class="icon-feather"></i>Ürün Tanıtımı: Boytek Pultrüzyon Reçineleri</p>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/13/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/08-10/13.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 13</p>
+						<p class="smallLabel">
+						<h5>İnşaat Sektöründe Kompozit Malzeme Kullanımı-2</h5>
+						<i class="icon-feather"></i>Kompozit Prefabrik Yapılar<br>
+						<i class="icon-feather"></i>AR-GE Politikaları ve Öneriler<br>
+						<i class="icon-feather"></i>Ürün Tanıtımı: BRE 4560</p>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/14/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/08-10/14.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 14</p>
+						<p class="smallLabel">
+						<h5>Turizm Sektöründe Kompozit Malzeme Kullanımı: Su Parkları</h5>
+						<i class="icon-feather"></i>Kompozit Atıklar ve Geri Dönüşüm <br>
+						<i class="icon-feather"></i> EYS ve Yasal Şartların Önemi<br>
+						<i class="icon-feather"></i>Boytek A.Ş.’nin EYS Politikası<br>
+						<i class="icon-feather"></i>Ürün Tanıtımı: BRE 330SA</p>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/15/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/08-10/15.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 15</p>
+						<p class="smallLabel">
+						<h5> Havacılık Sektöründe Kompozit Malzeme Kullanımı: Hava Taşıtları</h5>
+						<i class="icon-feather"></i>TUSAŞ’ta Kompozit Uygulamaları<br>
+						<i class="icon-feather"></i>Vakum İnfüzyon Yöntemi<br>
+						<i class="icon-feather"></i>Kimya Sektöründe Çevre-İSG Mevzuatı/p>
+					</li>
+
+				</ul>
+
+
+			</ul>
+			<!-- category  -->
+			<ul data-cat="2006-2008">
+				<ul>
+					<li data-type="link" data-url="./sayi/01/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/06-08/01.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 1</p>
+						<p class="smallLabel">
+						<h5>Boytekten Yeni Bir Ürün: A-VAKS</h5>
+						<i class="icon-feather"></i>Sorumluluklar Artıyor<br><i class="icon-feather"></i> Karbon Elyaflı
+						Takviye Ürünleri ile Sınırlar Zorlanıyor</p>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/02/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/06-08/02.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 2</p>
+						<p class="smallLabel">
+						<h5>RTM Reçine Transfer Kalıplama Yöntemi</h5>
+						<i class="icon-feather"></i>Kompozit sektörünün devleri Paris JEC Composites Fuarı’nda buluştu
+						<br><i class="icon-feather"></i>Boytek/Vetrotex RTM-İnfüzyon, SMC-BMC, Pultrüzyon Semineri
+						yapıldı</p>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/03/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/06-08/03.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 3</p>
+						<p class="smallLabel">
+						<h5>Vakum Destekli İnfüzyon Yöntemi ile Kalıplama</h5>
+						<i class="icon-feather"></i>Saint-Gobain Vetrotex’ten Çok Özel Bir Ürün: Arcotex
+						<br><i class="icon-feather"></i> High Tech Ürünü Yatlar ve Uluslararası Bir Marka: Numarine</p>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/04/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/06-08/04.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 4</p>
+						<p class="smallLabel">
+						<h5>Otomotiv Endüstrisi’nde Kompozit Kullanımı Umut Verici</h5>
+						<i class="icon-feather"></i>El Yatırması Yöntemi<br>
+						<i class="icon-feather"></i> Çevresel koruma bilinci yeni buluşlara yol açıyor</p>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/05/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/06-08/05.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 5</p>
+						<p class="smallLabel">
+						<h5>Spray-Up Püskürtme Yöntemi ile Kalıplama</h5>
+						<i class="icon-feather"></i>Bir Dünya Markası: Polin<br>
+						<i class="icon-feather"></i>İçimizden Biri</p>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/06/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/06-08/06.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 6</p>
+						<p class="smallLabel">
+						<h5>Sıcak Pres Kalıplama Yöntemleri</h5>
+						<i class="icon-feather"></i>Çevreci Enerji Kaynakları Arayışında Öne Çıkan Tercih: RÜZGAR
+						ENERJİSİ<br>
+						<i class="icon-feather"></i>İçimizden Biri <br>
+						<i class="icon-feather"></i>Müşterilerimizden Haberler: Kompozit Kimya</p>
+					</li>
+
+				</ul>
+				<ul>
+					<li data-type="link" data-url="./sayi/07/index.html" data-target="_blank"></li>
+					<li data-thumbnail-path="./img/kapak-th/06-08/07.jpg"></li>
+					<li data-tooltip-text="">
+						<p class="largeLabel">Sayı 7</p>
+						<p class="smallLabel">
+						<h5>Su Sıkıntısının Aşılmasında Kompozit Ürünlerin Rolü</h5>
+						<i class="icon-feather"></i>Pultrüzyon Yöntemi<br>
+						<i class="icon-feather"></i>Müşterilerimizden Haberler: ESA Kimya</p>
+					</li>
+
+				</ul>
+
+
+
+
+			</ul>
+			<!-- end  -->
+
+		</div>
+
+
+	</div>
+	<!--İçerik-->
+	<div id="icerik" class="row">
+		<!--hakkımızda-->
+		<div id="solTaraf" class="eight columns">
+			<!--      8 kolon-->
+
+			<p class="secondary alert">Geçmiş sayıları görmek için lütfen yukarıdan yıl seçiniz.</p>
+			<table>
+				<thead>
+					<tr>
+						<th>Hakkımızda</th>
+
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+
+						<td>Kompozit Dünyası, 2006 yılından beri Boytek A.Ş. tarafından çıkartılan, kompozit sektörünün
+							sorunlarını ele alan ve bu alanda iletişim ihtiyacını karşılayan sektörel bilgi
+							platformudur.Üç ayda bir çıkan bültenin işlediği konular arasında Türkiye ekonomisi ve
+							sektör gündemi, sektörün öncü firmalarının tanıtımları, yeni teknolojiler ve malzemelere
+							ilişkin teknik bilgiler, çevresel duyarlılığı arttıran makaleler ve iş sağlığı ve güvenliği
+							ile ilgili eğitici yazılar yer almaktadır. 500’den fazla okuyucuya ücretsiz olarak dağıtımı
+							yapılan Kompozit Dünyası’nın amacı, hammadde üreticisinden, kompozit ürün üreticisine kadar
+							sektörün tüm aktörlerinin sesi olmaktır.
+							<img id="kolaj" src="./img/dergi-kolaj.png" alt="dergi kolajı">
+						</td>
+
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<!--tablar-->
+		<div id="sagTaraf" class="four columns">
+
+			<section class="tabs">
+
+				<ul class="tab-nav">
+					<li class="active"><a href="#">e-dergi</a></li>
+					<li> <a href="#">Basılı Dergi</a></li>
+				</ul>
+				<!--newsletter form-->
+				<div class="tab-content active">
+					<p>Dergimizi mailinize gönderebiliriz.</p>
+					<div id="emailFormu">
+
+						<script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
+						<script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.2089"
+							type="text/javascript"></script>
+						<script type="text/javascript"> JotForm.init(function () {
+								setTimeout(function () { $('input_1').hint('ör: isim@ornek.com'); }, 20); JotForm.alterTexts({ "alphabetic": "Bu alan yalnızca harflerden doldurulabilir", "alphanumeric": "Bu alan yalnızca harf ve sayı içerebilir.", "characterLimitError": "Too many Characters. The limit is", "confirmClearForm": "http://form.jotformeu.com/jsform/31541407909353", "confirmEmail": "E-posta eşleşmiyor", "currency": "Bu dosya sadece geçerli değerler içerebilir", "email": "Geçerli bir e-posta adresi girin", "fillMask": "Field value must fill mask.", "generalError": "Formunuzda hatalar var. Lütfen devam etmeden önce düzeltin.", "generalPageError": "Bu sayfada hatalar var. Devam etmeden önce lütfen düzeltin.", "gradingScoreError": "Toplam puan sadece daha az ya da eşit olmalıdır", "incompleteFields": "Tamamlanmamış gerekli alanlar bulunuyor. Lütfen tamamlanıyız.", "inputCarretErrorA": "Giriş minimum değerden küçük olmamalıdır", "inputCarretErrorB": "Girdi maksimum değerden büyük olmamalıdır:", "lessThan": "Puanınız daha az ya da eşit olmalıdır", "maxDigitsError": "Maksimum kabul edilebilen basamak", "maxSelectionsError": "En fazla seçim sayısı", "minSelectionsError": "Gereken en az seçim sayısı", "multipleFileUploads_emptyError": "{file} is boş, lütfen dosyaları bu dosya olmadan tekrar seçin.", "multipleFileUploads_fileLimitError": "Only {fileLimit} file uploads allowed.", "multipleFileUploads_minSizeError": "{file} çok küçük, minimum dosya boyutu {minSizeLimit}.", "multipleFileUploads_onLeave": "Dosyalar yükleniyor, şimdi çıkarsanız yükleme iptal edilecek.", "multipleFileUploads_sizeError": "{file} çok büyük, maksimum dosya boyutu {sizeLimit}.", "multipleFileUploads_typeError": "{file} geçersiz dosya uzantısına sahip. Sadece {extensions} dosya uzantılarına izin verilmektedir.", "numeric": "Bu alan sadece sayısal değerler içerebilir", "pastDatesDisallowed": "Tarih geçmişte olmamalı.", "pleaseWait": "Please wait...", "required": "Bu alan gereklidir.", "requireEveryCell": "Every cell is required.", "requireEveryRow": "Bütün satırlar gereklidir.", "requireOne": "En az bir alan gerekli", "submissionLimit": "Üzgünüz! Sadece tek bir gönderime izin veriliyor&lt;br&gt;Çoklu gönderimler bu formda kapalı.", "uploadExtensions": "Yalnızca şu dosyaları yükleyebilirsiniz:", "uploadFilesize": "Dosya boyutu daha büyük olamaz:", "wordLimitError": "Too many words. The limit is" }); JotForm.clearFieldOnHide = "disable"; /*INIT-END*/
+							}); JotForm.prepareCalculationsOnTheFly([null, { "name": "epostaAdresiniz", "qid": "1", "text": "e-posta adresiniz:", "type": "control_email" }, { "name": "gonder", "qid": "2", "text": "Gonder", "type": "control_button" }, { "name": "isim", "qid": "3", "text": "Isim", "type": "control_fullname" }, { "name": "varsaSirket", "qid": "4", "text": "Varsa Sirket Adiniz", "type": "control_textbox" }]); setTimeout(function () {
+								JotForm.paymentExtrasOnTheFly([null, { "name": "epostaAdresiniz", "qid": "1", "text": "e-posta adresiniz:", "type": "control_email" }, { "name": "gonder", "qid": "2", "text": "Gonder", "type": "control_button" }, { "name": "isim", "qid": "3", "text": "Isim", "type": "control_fullname" }, { "name": "varsaSirket", "qid": "4", "text": "Varsa Sirket Adiniz", "type": "control_textbox" }]);
+							}, 20); </script>
+
+
+
+						<link type="text/css" media="print" rel="stylesheet"
+							href="http://max.jotfor.ms/css/printForm.css?3.2.2688" />
+
+
+						<form class="jotform-form" action="https://submit.jotformeu.com/submit/41884849389376/"
+							method="post" name="form_41884849389376" id="41884849389376" accept-charset="utf-8">
+							<input type="hidden" name="formID" value="41884849389376" />
+							<div class="form-all">
+								<ul class="form-section">
+									<li class="form-line" data-type="control_fullname" id="id_3">
+										<div id="cid_3" class="field form-input">
+											<div data-wrapper-react="true">
+												<span class="form-sub-label-container" style="vertical-align:top;">
+													<input type="text" id="first_3" name="q3_isim[first]"
+														class="input form-textbox" size="10" value=""
+														placeholder="Adınız ve Soyadınız " data-component="first" />
+													<span class="form-sub-label-container" style="vertical-align:top;">
+
+											</div>
+										</div>
+									</li>
+									<li class="form-line" data-type="control_textbox" id="id_4">
+										<div id="cid_4" class="field form-input">
+											<input type="text" id="input_4" name="q4_varsaSirket"
+												data-type="input-textbox" class="input form-textbox" size="20" value=""
+												placeholder="Varsa Şirket Adınız " data-component="textbox" />
+										</div>
+									</li>
+									<li class="form-line jf-required" data-type="control_email" id="id_1">
+										<div id="cid_1" class="field form-input jf-required">
+											<input type="email" id="input_1" name="q1_epostaAdresiniz"
+												class="input form-textbox validate[required, Email]" size="28" value=""
+												placeholder="ör: isim@ornek.com" data-component="email" required="" />
+										</div>
+									</li>
+									<li class="form-line" data-type="control_button" id="id_2">
+										<div id="cid_2" class="field form-input">
+											<div class="medium primary btn">
+												<button id="input_2" type="submit"
+													class="form-submit-button form-submit-button-simple_red"
+													data-component="button"> Gönder </button>
+											</div>
+										</div>
+									</li>
+									<li style="display:none"> Should be Empty: <input type="text" name="website"
+											value="" /> </li>
+								</ul>
+							</div>
+							<script> JotForm.showJotFormPowered = "0"; </script> <input type="hidden" id="simple_spc"
+								name="simple_spc" value="41884849389376" />
+							<script
+								type="text/javascript"> document.getElementById("si" + "mple" + "_spc").value = "41884849389376-41884849389376"; </script>
+						</form>
+						<script type="text/javascript">JotForm.ownerView = true;</script>
+
+					</div>
+
+				</div>
+				<!-- adres form-->
+				<div class="tab-content">
+					<p>Aşağıdaki formu doldurun, adresinize dergimizi gönderelim.
+					<p>
+					<div id="dergiTalepFormu">
+						<script type="text/javascript">
+							JotForm.init(function () {
+								$('input_6').hint(' Adınız Soyadınız');
+								$('input_7').hint('Telefon Numaranız');
+								$('input_5').hint('Varsa Şirket Adınız');
+								JotForm.alterTexts({ "alphabetic": "Bu alan yalnızca harflerden doldurulabilir", "alphanumeric": "Bu alan yalnızca harf ve sayı içerebilir.", "characterLimitError": "Too many Characters.  The limit is", "confirmClearForm": "http://form.jotformeu.com/jsform/31541407909353", "confirmEmail": "E-posta eşleşmiyor", "currency": "Bu dosya sadece geçerli değerler içerebilir", "email": "Geçerli bir e-posta adresi girin", "fillMask": "Field value must fill mask.", "generalError": "Formunuzda hatalar var. Lütfen devam etmeden önce düzeltin.", "generalPageError": "Bu sayfada hatalar var. Devam etmeden önce lütfen düzeltin.", "gradingScoreError": "Toplam puan sadece daha az ya da eşit olmalıdır", "incompleteFields": "Tamamlanmamış gerekli alanlar bulunuyor. Lütfen tamamlanıyız.", "inputCarretErrorA": "Giriş minimum değerden küçük olmamalıdır", "inputCarretErrorB": "Girdi maksimum değerden büyük olmamalıdır:", "lessThan": "Puanınız daha az ya da eşit olmalıdır", "maxDigitsError": "Maksimum kabul edilebilen basamak", "maxSelectionsError": "En fazla seçim sayısı", "minSelectionsError": "Gereken en az seçim sayısı", "multipleFileUploads_emptyError": "{file} is boş, lütfen dosyaları bu dosya olmadan tekrar seçin.", "multipleFileUploads_fileLimitError": "Only {fileLimit} file uploads allowed.", "multipleFileUploads_minSizeError": "{file} çok küçük, minimum dosya boyutu {minSizeLimit}.", "multipleFileUploads_onLeave": "Dosyalar yükleniyor, şimdi çıkarsanız yükleme iptal edilecek.", "multipleFileUploads_sizeError": "{file} çok büyük, maksimum dosya boyutu {sizeLimit}.", "multipleFileUploads_typeError": "{file} geçersiz dosya uzantısına sahip. Sadece {extensions} dosya uzantılarına izin verilmektedir.", "numeric": "Bu alan sadece sayısal değerler içerebilir", "pastDatesDisallowed": "Tarih geçmişte olmamalı.", "pleaseWait": "Please wait...", "required": "Bu alan gereklidir.", "requireEveryCell": "Every cell is required.", "requireEveryRow": "Bütün satırlar gereklidir.", "requireOne": "En az bir alan gerekli", "submissionLimit": "Üzgünüz! Sadece tek bir gönderime izin veriliyor<br> Çoklu gönderimler bu formda kapalı.", "uploadExtensions": "Yalnızca şu dosyaları yükleyebilirsiniz:", "uploadFilesize": "Dosya boyutu daha büyük olamaz:", "wordLimitError": "Too many words. The limit is" });
+							});
+						</script>
+
+
+						<form class="jotform-form" action="http://submit.jotformeu.com/submit/41902733533350/"
+							method="post" name="form_41902733533350" id="41902733533350" accept-charset="utf-8">
+							<input type="hidden" name="formID" value="41902733533350" />
+							<div class="form-all">
+								<ul class="form-section">
+									<li class="form-line" id="id_6">
+										<!--        <label class="form-label form-label-left form-label-auto" id="label_6" for="input_6">
+          Adınız
+          <span class="form-required">
+            *
+          </span>
+        </label>-->
+										<div id="cid_6" class="field form-input">
+											<input type="text" class="input form-textbox validate[required]"
+												data-type="input-textbox" id="input_6" name="q6_adiniz" size="20"
+												value="" placeholder="Adınız ve Soyadınız" />
+										</div>
+									</li>
+									<li class="form-line" id="id_7">
+										<!--  <label class="form-label form-label-left form-label-auto" id="label_7" for="input_7"> Telefonunuz </label>-->
+										<div id="cid_7" class="field form-input">
+											<input type="text" class="input form-textbox" data-type="input-textbox"
+												id="input_7" name="q7_telefonunuz" size="20" value=""
+												placeholder="Telefonunuz" />
+										</div>
+									</li>
+									<li class="form-line" id="id_5">
+										<!--<label class="form-label form-label-top" id="label_5" for="input_5"> Varsa Şirket Adınız </label>-->
+										<div id="cid_5" class="field form-input-wide">
+											<input type="text" class="input form-textbox" data-type="input-textbox"
+												id="input_5" name="q5_sirketAd" size="20" value=""
+												placeholder="Varsa Şirket Adınız" />
+										</div>
+									</li>
+									<li class="form-line" id="id_8">
+										<!--<label class="form-label form-label-left form-label-auto" id="label_8" for="input_8"> Adresiniz </label>-->
+										<div id="field cid_8" class="field form-input">
+											<textarea id="input_8" class="input textarea form-textarea"
+												name="q8_adresiniz" cols="20" rows="3"
+												placeholder="Adresiniz"></textarea>
+										</div>
+									</li>
+									<li class="form-line" id="id_2">
+										<div id="cid_2" class="form-input-wide">
+											<div class="medium primary btn">
+												<button id="input_2" type="submit" class="">
+													Kayıt Ol!
+												</button>
+											</div>
+										</div>
+									</li>
+									<li style="display:none">
+										Should be Empty:
+										<input type="text" name="website" value="" />
+									</li>
+								</ul>
+							</div>
+							<input type="hidden" id="simple_spc" name="simple_spc" value="41902733533350" />
+							<script type="text/javascript">
+								document.getElementById("si" + "mple" + "_spc").value = "41902733533350-41902733533350";
+							</script>
+						</form>
+					</div>
+
+
+
+
+
+			</section>
+
+
+
+
+		</div>
+		</section>
+		<!--adres-->
+		<div id="sagTaraf2" class="four columns">
+			<!--      4 kolon-->
+
+			<p> <strong>Adres</strong> : 29 Ekim Cad.İstanbul Vizyon Park Ofis Plaza 3 A2 Blok No: 60-61 34197 Yenibosna
+				- Bahçelievler/İstanbul
+				<br>
+				<strong>Tel</strong> : +90 212 551 03 04 (2 hat)
+				<br>
+				<strong>Fax</strong> : +90 212 551 28 35
+				<br>
+				<strong>E-Posta</strong> :
+				<script>
+					var isim = "info";
+					var domain = "kompozitdunyasi.com";
+					document.write('<a href=\"mailto:' + isim + '@' + domain + '\">');
+					document.write(isim + '@' + domain + '</a>');
+				</script>
+			</p>
+
+
+		</div>
+	</div>
+	<!--footer-->
+	<footer id="footer" class="navbar">
+		<div class="row">
+
+			<div class="eight columns">
+				<!--   <i class="icon-cc"></i><i class="icon-cc-by"></i><i class="icon-cc-nc-eu"></i><i class="icon-cc-nd"></i>-->
+				<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank"><img
+						alt="Creative Commons License" style="border-width:0"
+						src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
+				<!--     This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.-->
+
+			</div>
+			<div class="two columns">
+				<a href="http://boytek.com.tr/" target="_blank"> <img src="./img/logo-boytek.png" alt="" width="224"
+						height="47"></a>
+			</div>
+			<div class="two columns">
+				<p>
+					<a href="https://www.facebook.com/pages/Boytek-Re%C3%A7ine-Boya-Ve-Kimya-San-Tic-A%C5%9E/270458746414831?fref=nf"
+						target="_blank"><i class="icon-facebook-squared"></i></a> <a
+						href="https://www.linkedin.com/company/boytek-resins" target="_blank"><i
+							class="icon-linkedin"></i></a>
+					<!-- <a href="./?force-mobile">
+						Mobile site
+					</a> -->
+				</p>
+			</div>
+
+
+		</div>
+
+	</footer>
+
+	<div id="rest">
+
+
+
+		<!-- Grab Google CDN's jQuery, fall back to local if offline -->
+		<!-- 2.0 for modern browsers, 1.10 for .oldie -->
+		<script>
+			var oldieCheck = Boolean(document.getElementsByTagName('html')[0].className.match(/\soldie\s/g));
+			if (!oldieCheck) {
+				document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"><\/script>');
+			} else {
+				document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"><\/script>');
+			}
+		</script>
+		<script>
+			if (!window.jQuery) {
+				if (!oldieCheck) {
+					document.write('<script src="./js/libs/jquery-2.0.2.min.js"><\/script>');
+				} else {
+					document.write('<script src="./js/libs/jquery-1.10.1.min.js"><\/script>');
+				}
+			}
+			$('img').bind('contextmenu', function (e) {
+				return false;
+			});
+		</script>
+
+		<!--
+	Include gumby.js followed by UI modules followed by gumby.init.js
+	Or concatenate and minify into a single file -->
+		<script gumby-touch="js/libs" src="./js/libs/gumby.js"></script>
+		<script src="./js/libs/ui/gumby.retina.js"></script>
+		<script src="./js/libs/ui/gumby.fixed.js"></script>
+		<script src="./js/libs/ui/gumby.skiplink.js"></script>
+		<script src="./js/libs/ui/gumby.toggleswitch.js"></script>
+		<script src="./js/libs/ui/gumby.checkbox.js"></script>
+		<script src="./js/libs/ui/gumby.radiobtn.js"></script>
+		<script src="./js/libs/ui/gumby.tabs.js"></script>
+		<script src="./js/libs/ui/gumby.navbar.js"></script>
+		<script src="./js/libs/ui/jquery.validation.js"></script>
+		<script src="./js/libs/gumby.init.js"></script>
+
+
+		<!-- 
+	<script src="./js/plugins.js"></script>
+	<script src="./js/main.js"></script>
+ -->
+
+	</div>
+	<iframe width='1px' height='1px' frameborder='0' src='./sayi/45/index.html'></iframe>
+</body>
+
+</html>

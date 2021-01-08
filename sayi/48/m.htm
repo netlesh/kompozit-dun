@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Kompozit Dünyası - Haziran  2018</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="../../css/flipbook.style.css">
+<link rel="stylesheet" type="text/css" href="../../css/font-awesome.css">
+
+<script src="../../js/flipbook.min.js"></script>
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $("#container").flipBook({
+            pages:[
+                {src:"./images/image-01.jpg",  thumb:"./th/image-01.jpg", title:"Kapak"},
+                {src:"./images/image-02.jpg",  thumb:"./th/image-02.jpg", title:"Sayfa  2"},
+                {src:"./images/image-03.jpg",  thumb:"./th/image-03.jpg", title:"Sayfa 3"},
+                {src:"./images/image-04.jpg",  thumb:"./th/image-04.jpg", title:"Sayfa 4"},
+                {src:"./images/image-05.jpg",  thumb:"./th/image-05.jpg", title:"Sayfa 5"},
+                {src:"./images/image-06.jpg",  thumb:"./th/image-06.jpg", title:"Sayfa 6"},
+                {src:"./images/image-07.jpg",  thumb:"./th/image-07.jpg", title:"Sayfa 7"},
+                {src:"./images/image-08.jpg",  thumb:"./th/image-08.jpg", title:"Sayfa 8"},
+                {src:"./images/image-09.jpg",  thumb:"./th/image-09.jpg", title:"Sayfa 9"},
+                {src:"./images/image-10.jpg",  thumb:"./th/image-10.jpg",  title:"Sayfa 10"},
+                {src:"./images/image-11.jpg",  thumb:"./th/image-11.jpg",  title:"Sayfa 11"},
+                {src:"./images/image-12.jpg",  thumb:"./th/image-12.jpg",  title:"Son Kapak"}
+            ],
+			socialShare : [
+				{ 	icon:"fa-facebook-square", 
+					url:"https://www.facebook.com/pages/Boytek-Re%C3%A7ine-Boya-Ve-Kimya-San-Tic-A%C5%9E/270458746414831?fref=nf", 
+					name:"Facebook", 
+					target:"_blank"},
+				{ 	icon:"fa-linkedin", 
+					url:"https://www.linkedin.com/company/boytek-resins", 
+					name:"LinkedIn", 
+					target:"_blank"}
+			],
+            webgl:false,
+			flipType:"2d",
+            currentPage : {enabled:true, title:"Şimdiki Sayfa"},
+			btnNext : {enabled:true, title:"Sonraki Sayfa", icon:"fa-chevron-right"},
+			btnPrev : {enabled:true, title:"Önceki Sayfa", icon:"fa-chevron-left"},
+			btnZoomIn : {enabled:true, title:"Yaklaş", icon:"fa-plus"},
+			btnZoomOut : {enabled:true, title:"Uzaklaş", icon:"fa-minus"},
+			btnToc : {enabled:true, title:"İçindekiler", icon:"fa-list-ol"},
+            btnThumbs : {enabled:true, title:"Sayfalar", icon:"fa-th-large"},
+			btnShare : {enabled:true, title:"Paylaş", icon:"fa-link"},
+            btnDownloadPages : {enabled:false},
+			btnDownloadPdf : {enabled:false},
+			btnExpand : {enabled:true, title:"Tam Sayfa", icon:"fa-expand"},
+            backgroundPattern:"../../img/patterns/woven.png"
+        });
+
+    })
+</script>
+
+</head>
+
+<body>
+<div id="container"></div>
+</body>
+
+</html>

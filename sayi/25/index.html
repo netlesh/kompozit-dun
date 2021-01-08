@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Kompozit Dünyası - Eylül 2012</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"></meta>
+<script src="//cdn.jsdelivr.net/jquery/1.8.3/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/jquery.ui/1.11.0/jquery-ui.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="../../css/flipbook.style.css">
+<link rel="stylesheet" type="text/css" href="../../css/font-awesome.css">
+
+<script src="../../js/flipbook.min.js"></script>
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $("#container").flipBook({
+            pages:[
+                {src:"./images/Page01.jpg",  thumb:"./th/Page01.jpg", title:"Kapak"},
+                {src:"./images/Page02.jpg",  thumb:"./th/Page02.jpg", title:"Sayfa  2"},
+                {src:"./images/Page03.jpg",  thumb:"./th/Page03.jpg", title:"Sayfa 3"},
+                {src:"./images/Page04.jpg",  thumb:"./th/Page04.jpg", title:"Sayfa 4"},
+                {src:"./images/Page05.jpg",  thumb:"./th/Page05.jpg", title:"Sayfa 5"},
+                {src:"./images/Page06.jpg",  thumb:"./th/Page06.jpg", title:"Sayfa 6"},
+                {src:"./images/Page07.jpg",  thumb:"./th/Page07.jpg", title:"Sayfa 7"},
+                {src:"./images/Page08.jpg",  thumb:"./th/Page08.jpg", title:"Sayfa 8"},
+                {src:"./images/Page09.jpg",  thumb:"./th/Page09.jpg", title:"Sayfa 9"},
+                {src:"./images/Page10.jpg", thumb:"./th/Page10.jpg",  title:"Sayfa 10"},
+                {src:"./images/Page11.jpg", thumb:"./th/Page11.jpg",  title:"Sayfa 11"},
+                {src:"./images/Page12.jpg", thumb:"./th/Page12.jpg",  title:"Son Kapak"}
+            ],
+			socialShare : [
+				{ 	icon:"fa-facebook-square", 
+					url:"https://www.facebook.com/pages/Boytek-Re%C3%A7ine-Boya-Ve-Kimya-San-Tic-A%C5%9E/270458746414831?fref=nf", 
+					name:"Facebook", 
+					target:"_blank"},
+				{ 	icon:"fa-linkedin", 
+					url:"https://www.linkedin.com/company/boytek-resins", 
+					name:"LinkedIn", 
+					target:"_blank"}
+			],
+			currentPage : {enabled:true, title:"Şimdiki Sayfa"},
+			btnNext : {enabled:true, title:"Sonraki Sayfa", icon:"fa-chevron-right"},
+			btnPrev : {enabled:true, title:"Önceki Sayfa", icon:"fa-chevron-left"},
+			btnZoomIn : {enabled:true, title:"Yaklaş", icon:"fa-plus"},
+			btnZoomOut : {enabled:true, title:"Uzaklaş", icon:"fa-minus"},
+			btnToc : {enabled:true, title:"İçindekiler", icon:"fa-list-ol"},
+            btnThumbs : {enabled:true, title:"Sayfalar", icon:"fa-th-large"},
+			btnShare : {enabled:true, title:"Paylaş", icon:"fa-link"},
+			btnDownloadPages : {enabled:false},
+			btnDownloadPdf : {enabled:false},
+			btnExpand : {enabled:true, title:"Tam Sayfa", icon:"fa-expand"},
+            backgroundPattern:"../../img/patterns/woven.png"
+
+                        
+        });
+        
+    })
+</script>
+<link rel="prev" href="../../index.html">
+</head>
+
+<body>
+<div id="container">
+
+</body>
+
+</html>

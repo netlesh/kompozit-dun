@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Kompozit Dünyası - Eylül 2021</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../../css/flipbook.style.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/font-awesome.css" />
+
+    <script src="../../js/flipbook.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#container").flipBook({
+          pages: [
+            { src: "./images/image01.jpg", thumb: "./th/image01.jpg", title: "Kapak" },
+            { src: "./images/image02.jpg", thumb: "./th/image02.jpg", title: "Sayfa 2" },
+            { src: "./images/image03.jpg", thumb: "./th/image03.jpg", title: "Sayfa 3" },
+            { src: "./images/image04.jpg", thumb: "./th/image04.jpg", title: "Sayfa 4" },
+            { src: "./images/image05.jpg", thumb: "./th/image05.jpg", title: "Sayfa 5" },
+            { src: "./images/image06.jpg", thumb: "./th/image06.jpg", title: "Sayfa 6" },
+            { src: "./images/image07.jpg", thumb: "./th/image07.jpg", title: "Sayfa 7" },
+            { src: "./images/image08.jpg", thumb: "./th/image08.jpg", title: "Sayfa 8" },
+            { src: "./images/image09.jpg", thumb: "./th/image09.jpg", title: "Sayfa 9" },
+            { src: "./images/image10.jpg", thumb: "./th/image10.jpg", title: "Sayfa 10" },
+            { src: "./images/image11.jpg", thumb: "./th/image11.jpg", title: "Sayfa 11" },
+            { src: "./images/image12.jpg", thumb: "./th/image12.jpg", title: "Sayfa 12" },
+            { src: "./images/image13.jpg", thumb: "./th/image13.jpg", title: "Sayfa 13" },
+            { src: "./images/image14.jpg", thumb: "./th/image14.jpg", title: "Sayfa 14" },
+            { src: "./images/image15.jpg", thumb: "./th/image15.jpg", title: "Sayfa 15" },
+            { src: "./images/image16.jpg", thumb: "./th/image16.jpg", title: "Sayfa 16" },
+          ],
+          socialShare: [
+            {
+              icon: "fa-facebook-square",
+              url: "https://www.facebook.com/pages/Boytek-Re%C3%A7ine-Boya-Ve-Kimya-San-Tic-A%C5%9E/270458746414831?fref=nf",
+              name: "Facebook",
+              target: "_blank",
+            },
+            {
+              icon: "fa-linkedin",
+              url: "https://www.linkedin.com/company/boytek-resins",
+              name: "LinkedIn",
+              target: "_blank",
+            },
+          ],
+          webgl: false,
+          flipType: "2d",
+          currentPage: { enabled: true, title: "Şimdiki Sayfa" },
+          btnNext: { enabled: true, title: "Sonraki Sayfa", icon: "fa-chevron-right" },
+          btnPrev: { enabled: true, title: "Önceki Sayfa", icon: "fa-chevron-left" },
+          btnZoomIn: { enabled: true, title: "Yaklaş", icon: "fa-plus" },
+          btnZoomOut: { enabled: true, title: "Uzaklaş", icon: "fa-minus" },
+          btnToc: { enabled: true, title: "İçindekiler", icon: "fa-list-ol" },
+          btnThumbs: { enabled: true, title: "Sayfalar", icon: "fa-th-large" },
+          btnShare: { enabled: true, title: "Paylaş", icon: "fa-link" },
+          btnDownloadPages: { enabled: false },
+          btnDownloadPdf: { enabled: false },
+          btnExpand: { enabled: true, title: "Tam Sayfa", icon: "fa-expand" },
+          backgroundPattern: "../../img/patterns/woven.png",
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div id="container"></div>
+  </body>
+</html>

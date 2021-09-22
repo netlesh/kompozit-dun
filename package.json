@@ -3,6 +3,6 @@
     "dev": "browser-sync start --server -w"
   },
   "dependencies": {
-    "browser-sync": "^2.26.13"
+    "browser-sync": "^2.27.5"
   }
 }
